@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     build: .
-    image: deepakkhatri/node_web_app6c
+    image: deepakkhatri/node_web_app
     ports:
       - '3043:3040'
     environment:
@@ -13,7 +13,7 @@ services:
 
   app1:
     build: .
-    image: deepakkhatri/node_web_app6c
+    image: deepakkhatri/node_web_app
     ports:
       - '3044:3040'
     environment:
