@@ -19,6 +19,6 @@ spec:
       containers:
       - name: mynode
         imagePullPolicy: Never
-        image: deepakkhatri/node_web_app:1.1.1
+        image: deepakkhatri/node_web_app6c:1.1.1
         ports:
         - containerPort: 3040

@@ -6,7 +6,7 @@ metadata:
     tier: frontend
 spec:
   containers:
-  - image: deepakkhatri/node_web_app:1.1.1
+  - image: deepakkhatri/node_web_app6c:1.1.1
     imagePullPolicy: Never
     name: nodewebapp
     ports:
